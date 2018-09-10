@@ -10,7 +10,7 @@
 *
 *    word: solar
 *    return: true
-*    The word can be created because the 's' char is conected with the 'o' char, that also is
+*    The word can be created because the 's' char is connected with the 'o' char, that also is
 *    connected with 'l'
 */
 
