@@ -1,4 +1,3 @@
-
 /*
 *    Return true if a word can be build with consecutive characters in a matrix 
 *    a character in the matrix must be used just one time.

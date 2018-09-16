@@ -6,8 +6,17 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/*
+    HackerLand National Bank has a simple policy for warning clients about possible fraudulent account activity. 
+    If the amount spent by a client on a particular day is greater than or equal to  the client's median spending for a trailing number of days, 
+    they send the client a notification about potential fraud. T
+    he bank doesn't send the client any notifications until they have at least that trailing number of prior days' transaction data.
+
+    Given the number of trailing days  and a client's total daily expenditures for a period of  days, 
+    find and print the number of times the client will receive a notification over all  days.
+*/
 public class FraudulentActivityNotifications {
-    
+ 
     // Complete the activityNotifications function below.
     static int activityNotifications(int[] expenditure, int d) {
         int start, end;
